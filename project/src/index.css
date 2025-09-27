@@ -1,0 +1,121 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Layout */
+body {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.page-container {
+  flex: 1;
+  overflow: hidden;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #111827;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #f472b6;
+}
+
+.navbar nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #e5e7eb;
+  transition: color 0.2s ease-in-out;
+}
+
+.navbar nav a:hover {
+  color: #f472b6;
+}
+.navber-logo {
+  height: 1px;
+}
+
+/* Upload Bar */
+.upload-bar {
+  padding: 1rem;
+  background-color: #1f2937;
+  text-align: center;
+}
+
+.upload-bar input[type="file"] {
+  color: #e5e7eb;
+  background-color: #374151;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.upload-bar input[type="file"]:hover {
+  background-color: #4b5563;
+}
+
+/* Page Base */
+.page {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+/* Canvas Container */
+.canvas-container {
+  flex: 1;
+  height: 100%;
+}
+
+/* About Page */
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #f472b6;
+}
+
+.about p {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+  color: #d1d5db;
+}
+
+/* Create Page */
+.create {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 1.5rem;
+  color: #a5b4fc;
+}
+.footer-copy {
+  width: 100%;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #aaa;
+  margin-top: 20px;
+  border-top: 1px solid #333;
+  padding-top: 15px;
+}

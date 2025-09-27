@@ -1,0 +1,139 @@
+    :root{
+      --accent:#0b6b5e;
+      --dark:#0e0f11;
+      --muted:#6b7280;
+      --card:#ffffff;
+      --bg:#f7f7f8;
+      --maxw:1100px;
+      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:#111;line-height:1.45}
+
+    /* Top contact bar */
+    .topbar{background:#0b0b0b;color:#fff;padding:8px 16px;font-size:14px}
+    .topbar .wrap{max-width:var(--maxw);margin:0 auto;display:flex;gap:12px;align-items:center;justify-content:space-between}
+    .topbar .left{display:flex;gap:12px;align-items:center}
+    .topbar a{color:inherit;text-decoration:none}
+
+    header{background:#fff;box-shadow:0 1px 0 rgba(0,0,0,0.05)}
+    .navwrap{max-width:var(--maxw);margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:16px}
+    .brand{display:flex;gap:12px;align-items:center}
+    .brand h1{font-size:20px;margin:0}
+    nav ul{display:flex;gap:18px;align-items:center;margin:0;padding:0;list-style:none}
+    nav a{color:#111;text-decoration:none;font-weight:600}
+
+    /* mobile menu */
+    .menu-toggle{display:none;background:transparent;border:0;font-size:20px}
+    @media(max-width:800px){nav ul{display:none}.menu-toggle{display:block}}
+
+    /* Hero background improvements */
+.hero {
+  background-image: linear-gradient(rgba(6,6,6,0.45), rgba(6,6,6,0.3)), url('onatit2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* parallax feel on desktop */
+  color: #fff;
+  padding: 80px 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Optional: subtle overlay for better text contrast */
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.25);
+  z-index: 0;
+}
+
+.hero .wrap {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 24px;
+  align-items: center;
+  position: relative;
+  z-index: 1; /* keeps content above overlay */
+}
+
+/* Text styling */
+.hero h2 {
+  font-size: 34px;
+  margin: 0 0 12px;
+  line-height: 1.2;
+}
+
+.hero p {
+  margin: 0 0 18px;
+  color: #ffffffe8;
+  max-width: 520px;
+}
+
+/* CTA button */
+.hero .cta {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+.hero .cta:hover {
+  background: #09584d;
+  transform: translateY(-2px);
+}
+/* Background helper */
+.bg-hero {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Responsive */
+@media(max-width: 900px) {
+  .hero {
+    padding: 56px 16px;
+    background-attachment: scroll; /* avoids mobile bugs */
+  }
+  .hero .wrap {
+    grid-template-columns: 1fr;
+  }
+  .hero h2 {
+    font-size: 28px;
+  }
+}
+    /* Services */
+    .section{max-width:var(--maxw);margin:48px auto;padding:0 16px}
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{background:var(--card);padding:20px;border-radius:10px;box-shadow:0 6px 18px rgba(12,12,12,0.04)}
+    .card h3{margin:0 0 8px}
+    @media(max-width:900px){.grid-3{grid-template-columns:1fr}}
+
+    /* Stats */
+    .stats{display:flex;gap:18px;justify-content:space-between}
+    .stat{flex:1;background:linear-gradient(180deg,#fff,#fbfbfb);padding:20px;border-radius:10px;text-align:center}
+    .stat strong{display:block;font-size:28px}
+
+    /* Gallery */
+    .filter{display:flex;gap:8px;margin-bottom:12px}
+    .filter button{border:1px solid #e6e6e6;background:#fff;padding:8px 12px;border-radius:8px;cursor:pointer}
+    .gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+    .gallery img{width:100%;height:160px;object-fit:cover;border-radius:8px}
+    @media(max-width:1000px){.gallery{grid-template-columns:repeat(2,1fr)}.gallery img{height:140px}}
+    @media(max-width:600px){.gallery{grid-template-columns:1fr}}
+
+    /* Footer */
+    footer{background:#111;color:#fff;padding:28px 16px}
+    footer .wrap{max-width:var(--maxw);margin:0 auto;display:flex;gap:20px;flex-wrap:wrap;justify-content:space-between}
+    footer a{color:inherit}
+
+    /* Small helpers */
+.muted {
+  color: var(--muted);
+}
