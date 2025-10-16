@@ -1,16 +1,80 @@
-# React + Vite
+# 🏗️ Onatit-on  — Capstone Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a modern, responsive web application for **Onatit-on**, built using **React**, **Vite**, and **Tailwind CSS**.  
+It showcases key engineering services, projects, and a contact form integrated with Google Maps.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+🔗 **Demo Video (Loom):** [Add your Loom link here]  
+🔗 **GitHub Repository:** [https://github.com/iamfikky/onatit/tree/main/onatit-on](https://github.com/iamfikky/onatit/tree/main/onatit-on)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧱 Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Onatit-on** is a web platform that highlights the company’s expertise in:
+- Civil and structural engineering
+- Highway construction
+- Water and environmental resources
+- Geotechnical analysis
+- Procurement and material supply
+
+The site is designed to be **accessible, mobile-friendly, and performance-optimized**.
+
+---
+
+## ✨ Features
+
+ Responsive design across all devices  
+ Dynamic project filtering using **React Query**  
+ Embedded **Google Maps** on the contact page  
+ Modular component structure for scalability  
+ Interactive navigation bar with React Router  
+ Modern UI powered by **Tailwind CSS**
+
+---
+
+## 🧰 Tech Stack
+
+| Technology | Description |
+|-------------|-------------|
+| **React.js** | Frontend library for building UI components |
+| **Vite** | Fast build tool and development server |
+| **Tailwind CSS** | Utility-first CSS framework |
+| **React Router DOM** | Client-side routing |
+| **React Query** | Data fetching and caching |
+| **JavaScript (ES6+)** | Core programming language |
+
+---
+
+
+## 🧩 Usage
+
+### Home Page
+Displays company introduction, hero image, services, and featured projects.
+
+### Projects Section
+Interactive category filtering using React Query and sample data from `/data/projects.js`.
+
+### Contact Page
+Google Map embed and contact form for inquiries.
+
+---
+
+## 🖼️ Screenshots
+
+> *(You can replace these placeholders with real images later.)*
+
+| Homepage | Projects | Contact |
+|-----------|-----------|----------|
+| ![Home](./src/assets/home-screenshot.png) | ![Projects](./src/assets/projects-screenshot.png) | ![Contact](./src/assets/contact-screenshot.png) |
+
+---
+
+## 👨‍💻 Author
+
+**Name:** Obisakin Fikayo  
+**GitHub:** [@iamfikky](https://github.com/iamfikky)  
+**Email:** fikayoobisakin1@gmail.com

@@ -1,5 +1,5 @@
 export default function Clients() {
-  const logos = ["src/assets/soil.jpg", "/client2.png", "/client3.png"];
+  const logos = ["src/assets/soil.jpg", "src/assets/engr.png", "src/assets/bridge.jpg"];
 
   return (
     <section id="clients" className="bg-gray-100 py-16 px-6">
