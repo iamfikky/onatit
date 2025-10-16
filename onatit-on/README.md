@@ -7,7 +7,7 @@ It showcases key engineering services, projects, and a contact form integrated w
 
 ## 🚀 Live Demo
 
-🔗 **Demo Video (Loom):** [Add your Loom link here]  
+🔗 **Demo Video (Loom):** [[Add your Loom link here](https://www.loom.com/share/f20a265bfff940418ae51d6ed56b3fef?sid=aa65754e-d69f-4552-8760-034383ec410b)]  
 🔗 **GitHub Repository:** [https://github.com/iamfikky/onatit/tree/main/onatit-on](https://github.com/iamfikky/onatit/tree/main/onatit-on)
 
 ---
